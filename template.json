@@ -1,0 +1,1044 @@
+{
+  "Actor": {
+    "types": ["character", "npc"],
+    "templates": {
+      "backend": {
+        "backend": {
+          "simpletoggle": false
+        }
+      },
+
+      "description": {
+        "description": {
+          "role": "Character role",
+          "biography": "A brief history...",
+          "appearance": "A brief physical description...",
+          "hair": "",
+          "height": "",
+          "weight": "",
+          "textinventory": "<ul><li>A text list</li><li>of any inventory</li><li>you want to record...</li></ol>",
+          "playernotes": "Any notes you want to keep..."
+        }
+      },
+
+      "combatstats": {
+        "combatstats": {
+          "healthpool": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 25,
+            "min": 0,
+            "max": 25,
+            "roll": 0
+          },
+          "luckpool": {
+            "value": 5,
+            "mod": 0,
+            "itemmod": 0,
+            "min": 0,
+            "max": 5,
+            "roll": 0
+          },
+          "init": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "deathsave": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "penalty": 0
+          },
+          "reputation": {
+            "value": 1,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "humanity": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "base": 0,
+            "current": 0,
+            "roll": 0
+          }
+        }
+      },
+
+      "humanityarray": {
+        "humanityarray": []
+      },
+
+      "combatsetup": {
+        "weaponsetup": {
+          "weapon1": {
+            "name": "Weapon Name...",
+            "damage": "5d6",
+            "skill": "hidden",
+            "type": "Pistol"
+          },
+          "weapon2": {
+            "name": "Weapon Name...",
+            "damage": "5d6",
+            "skill": "hidden",
+            "type": "Pistol"
+          },
+          "weapon3": {
+            "name": "Weapon Name...",
+            "damage": "5d6",
+            "skill": "hidden",
+            "type": "Pistol"
+          },
+          "weapon4": {
+            "name": "Weapon Name...",
+            "damage": "5d6",
+            "skill": "hidden",
+            "type": "Pistol"
+          },
+          "weapon5": {
+            "name": "Weapon Name...",
+            "damage": "5d6",
+            "skill": "hidden",
+            "type": "Pistol"
+          },
+          "weapon6": {
+            "name": "Weapon Name...",
+            "damage": "5d6",
+            "skill": "hidden",
+            "type": "Pistol"
+          },
+          "weapon7": {
+            "name": "Weapon Name...",
+            "damage": "5d6",
+            "skill": "hidden",
+            "type": "Pistol"
+          },
+          "weapon8": {
+            "name": "Weapon Name...",
+            "damage": "5d6",
+            "skill": "hidden",
+            "type": "Pistol"
+          },
+          "weapon9": {
+            "name": "Weapon Name...",
+            "damage": "5d6",
+            "skill": "hidden",
+            "type": "Pistol"
+          },
+          "weapon10": {
+            "name": "Weapon Name...",
+            "damage": "5d6",
+            "skill": "hidden",
+            "type": "Pistol"
+          }
+        },
+
+        "armorsetup": {
+          "armorhead": {
+            "name": "Armor Type...",
+            "value": 0,
+            "degrade": 0,
+            "remain": 0
+          },
+          "armorbody": {
+            "name": "Armor Type...",
+            "value": 0,
+            "degrade": 0,
+            "remain": 0
+          },
+          "armorshield": {
+            "name": "Armor Type...",
+            "value": 0,
+            "degrade": 0,
+            "remain": 0
+          }
+        }
+      },
+
+      "attributes": {
+        "attributes": {
+          "int": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0,
+            "sort": "1"
+          },
+          "ref": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0,
+            "sort": "2"
+          },
+          "dex": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0,
+            "sort": "3"
+          },
+          "tech": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0,
+            "sort": "4"
+          },
+          "cool": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0,
+            "sort": "5"
+          },
+          "will": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0,
+            "sort": "6"
+          },
+          "luck": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0,
+            "sort": "7"
+          },
+          "move": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0,
+            "sort": "8"
+          },
+          "body": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0,
+            "sort": "9"
+          },
+          "emp": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0,
+            "sort": "10"
+          }
+        }
+      },
+
+      "skills": {
+        "skills": {
+          "athletics": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "basictech": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "brawling": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "bribery": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "concentration": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "conversation": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "cybertech": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "driving": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "education": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "evasion": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "firstaid": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "humanperception": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "interrogation": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "localexpert": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "marksmanship": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "meleeweapon": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "perception": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "persuasion": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "playinstrument": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "stealth": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "tracking": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "accounting": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "acting": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "airvehicletech": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "animalhandling": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "archery": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "autofire": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "bureaucracy": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "business": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "composition": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "concealorrevealobject": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "contortionist": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "criminology": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "cryptography": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "dance": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "deduction": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "demolitions": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "drivelandvehicle": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "electronicsandsecuritytech": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "endurance": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "forgery": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "gamble": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "handgun": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "heavyweapons": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "landvehicletech": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "language": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "librarysearch": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "lipreading": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "martialarts": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "paintordraworsculpt": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "paramedic": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "personalgrooming": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "photographyandfilm": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "picklock": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "pickpocket": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "pilotairvehicle": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "pilotseavehicle": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "resisttortureordrugs": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "riding": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "science": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "seavehicletech": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "shoulderarms": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "streetwise": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "tactics": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "trading": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "wardrobeandstyle": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "weaponstech": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          },
+          "wildernesssurvival": {
+            "value": 0,
+            "mod": 0,
+            "itemmod": 0,
+            "roll": 0
+          }
+
+
+        }
+      },
+
+      "npc": {
+        "npc": {
+          "npc1": {
+            "buttonlabel": "Label...",
+            "value": 0,
+            "description": "Roll description..."
+          },
+          "npc2": {
+            "buttonlabel": "Label...",
+            "value": 0,
+            "description": "Roll description..."
+          },
+          "npc3": {
+            "buttonlabel": "Label...",
+            "value": 0,
+            "description": "Roll description..."
+          },
+          "npc4": {
+            "buttonlabel": "Label...",
+            "value": 0,
+            "description": "Roll description..."
+          },
+          "npc5": {
+            "buttonlabel": "Label...",
+            "value": 0,
+            "description": "Roll description..."
+          },
+          "npc6": {
+            "buttonlabel": "Label...",
+            "value": 0,
+            "description": "Roll description..."
+          },
+          "npc7": {
+            "buttonlabel": "Label...",
+            "value": 0,
+            "description": "Roll description..."
+          },
+          "npc8": {
+            "buttonlabel": "Label...",
+            "value": 0,
+            "description": "Roll description..."
+          },
+          "npc9": {
+            "buttonlabel": "Label...",
+            "value": 0,
+            "description": "Roll description..."
+          },
+          "npc10": {
+            "buttonlabel": "Label...",
+            "value": 0,
+            "description": "Roll description..."
+          }
+        }
+      },
+
+      "modifiers": {
+        "modifiers": {
+          "modhalfdam": {
+            "penalty": -3,
+            "checked": false
+          },
+
+          "modfulldam": {
+            "penalty": -2,
+            "checked": false
+          },
+
+          "modfacedown": {
+            "penalty": -3,
+            "checked": false
+          },
+
+          "modheadshot": {
+            "penalty": -8,
+            "checked": false
+          },
+
+          "modunfamiliarequipment": {
+            "penalty": -4,
+            "checked": false
+          },
+
+          "modnoinstructions": {
+            "penalty": -2,
+            "checked": false
+          },
+
+          "modwrongtools": {
+            "penalty": -2,
+            "checked": false
+          },
+
+          "modcomplextask": {
+            "penalty": -3,
+            "checked": false
+          },
+
+          "modneverdonebefore": {
+            "penalty": -1,
+            "checked": false
+          },
+
+          "modunderattack": {
+            "penalty": -3,
+            "checked": false
+          },
+
+          "moddrunkdruggedtired": {
+            "penalty": -4,
+            "checked": false
+          },
+
+          "modsecretly": {
+            "penalty": -4,
+            "checked": false
+          },
+
+          "moddarkobscured": {
+            "penalty": -4,
+            "checked": false
+          },
+
+          "modmanualmod": {
+            "penalty": 0
+          },
+
+          "modfinalmod": {
+            "totalpenalty": 0,
+            "healthpenalty": 0
+          }
+        }
+      },
+
+      "settings": {
+        "settings": {
+          "role": {
+            "rolename": "No role set yet"
+          },
+          "showtabs": {
+            "netrunner": false,
+            "rockerboy": false,
+            "solo": false,
+            "tech": false,
+            "medtech": false,
+            "media": false,
+            "exec": false,
+            "lawman": false,
+            "fixer": false,
+            "nomad": false
+          },
+          "prefs": {
+            "simpleCombatSetup": true,
+            "itemCombatSetup": true,
+            "showInventory": true,
+            "automateDamageMod": true,
+            "linkBodyToHealth": true
+          }
+        }
+      },
+
+      "roleskills": {
+        "roleskills": {
+          "netrunner": {
+            "interface": {
+              "value": 0,
+              "mod": 0,
+              "itemmod": 0,
+              "roll": 0,
+              "linkedattribute": "int"
+            },
+            "spd": {
+              "value": 0,
+              "mod": 0,
+              "itemmod": 0,
+              "roll": 0,
+              "linkedattribute": "int"
+            }
+          },
+          "rockerboy": {
+            "charismaticimpact": {
+              "value": 0,
+              "mod": 0,
+              "itemmod": 0,
+              "roll": 0,
+              "linkedattribute": "cha"
+            }
+          },
+          "solo": {
+            "combatawareness": {
+              "max": 0,
+              "current": 0
+            }
+          },
+          "tech": {
+            "maker": {
+              "value": 0
+            },
+            "fieldexpertise": {
+              "value": 0
+            },
+            "upgradeexpertise": {
+              "value": 0
+            },
+            "fabricationexpertise": {
+              "value": 0
+            },
+            "inventionexpertise": {
+              "value": 0
+            }
+          },
+          "medtech": {
+            "medicine": {
+              "value": 0
+            },
+            "surgery": {
+              "value": 0
+            },
+            "medtechpharma": {
+              "value": 0
+            },
+            "medtechcryo": {
+              "value": 0
+            },
+            "medicaltech": {
+              "value": 0,
+              "mod": 0,
+              "roll": 0
+            }
+          },
+          "media": {
+            "credibility": {
+              "value": 0
+            }
+          },
+          "exec": {
+            "teamwork": {
+              "value": 0
+            }
+          },
+          "lawman": {
+            "backup": {
+              "value": 0
+            }
+          },
+          "fixer": {
+            "operator": {
+              "value": 0
+            }
+          },
+          "nomad": {
+            "moto": {
+              "value": 0
+            }
+          }
+        }
+      }
+    },
+    "character": {
+      "templates": ["humanityarray", "backend", "description", "combatstats", "attributes", "skills", "combatsetup", "modifiers", "settings", "roleskills"]
+    },
+    "npc": {
+      "templates": ["humanityarray", "backend", "description", "combatstats", "attributes", "skills", "combatsetup", "modifiers", "settings", "roleskills", "npc"]
+    }
+  },
+  "Item": {
+    "types": ["cyberware", "weapons", "gear"],
+    "templates": {
+      "general": {
+        "price": {
+          "value": 0
+        },
+        "rarity": {
+          "value": "Premium"
+        },
+        "legality": {
+          "value": 0
+        },
+        "description": "A brief item description goes here..."
+      },
+      "cyberware": {
+        "internal": {
+          "value": false
+        },
+        "hackable": {
+          "value": false
+        },
+        "psychosis": {
+          "value": 0
+        }
+      },
+      "weapon": {
+        "damage": {
+          "value": "3d6"
+        },
+        "ammo": {
+          "min": 0,
+          "max": 16,
+          "value": 0
+        },
+        "ammotype": {
+          "value": "none"
+        },
+        "weapontype": {
+          "value": "pistol"
+        },
+        "burst": {
+          "value": false
+        },
+        "fullauto": {
+          "value": false
+        },
+        "skill": {
+          "value": "marksmanship"
+        },
+        "rof": {
+          "value": 1
+        }
+      },
+      "modlist": {
+        "modlist": {
+          "mod1": {
+            "modcat": "none",
+            "moditem": "none",
+            "modvalue": 0,
+            "modactive": true
+          },
+          "mod2": {
+            "modcat": "none",
+            "moditem": "none",
+            "modvalue": 0,
+            "modactive": true
+          },
+          "mod3": {
+            "modcat": "none",
+            "moditem": "none",
+            "modvalue": 0,
+            "modactive": true
+          },
+          "mod4": {
+            "modcat": "none",
+            "moditem": "none",
+            "modvalue": 0,
+            "modactive": true
+          },
+          "mod5": {
+            "modcat": "none",
+            "moditem": "none",
+            "modvalue": 0,
+            "modactive": true
+          },
+          "mod6": {
+            "modcat": "none",
+            "moditem": "none",
+            "modvalue": 0,
+            "modactive": true
+          },
+          "mod7": {
+            "modcat": "none",
+            "moditem": "none",
+            "modvalue": 0,
+            "modactive": true
+          },
+          "mod8": {
+            "modcat": "none",
+            "moditem": "none",
+            "modvalue": 0,
+            "modactive": true
+          },
+          "mod9": {
+            "modcat": "none",
+            "moditem": "none",
+            "modvalue": 0,
+            "modactive": true
+          },
+          "mod10": {
+            "modcat": "none",
+            "moditem": "none",
+            "modvalue": 0,
+            "modactive": true
+          }
+        }
+      }
+    },
+    "weapons": {
+      "templates": ["general", "weapon", "modlist"]
+    },
+    "cyberware": {
+      "templates": ["general", "cyberware", "modlist"]
+    },
+    "gear": {
+      "templates": ["general", "modlist"]
+    }
+  }
+}
